@@ -1,6 +1,6 @@
 {
   "name": "hoobs-roon-plugin",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Ein HOOBS-Plugin zur Integration von roon",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,14 @@
     "roon",
     "homekit"
   ],
-  "author": "Dein Name",
+  "author": "camelbl",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camelbl/hoobs-roon-plugin.git"
+  },
   "dependencies": {
-    "node-roon-api": "^1.2.1"
+    "node-roon-api": "git+https://github.com/RoonLabs/node-roon-api.git",
+    "node-roon-api-transport": "git+https://github.com/RoonLabs/node-roon-api-transport.git"
   }
 }
