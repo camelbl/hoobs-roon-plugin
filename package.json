@@ -1,0 +1,19 @@
+{
+  "name": "hoobs-roon-plugin",
+  "version": "1.0.0",
+  "description": "Ein HOOBS-Plugin zur Integration von roon",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "hoobs-plugin",
+    "roon",
+    "homekit"
+  ],
+  "author": "Dein Name",
+  "license": "MIT",
+  "dependencies": {
+    "node-roon-api": "^1.2.1"
+  }
+}
