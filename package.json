@@ -1,6 +1,6 @@
 {
   "name": "hoobs-plugin-roon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Roon Control - A HOOBS plugin for controlling Roon",
   "main": "index.js",
   "engines": {
