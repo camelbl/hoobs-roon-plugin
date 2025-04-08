@@ -1,11 +1,11 @@
 {
   "name": "homebridge-roon-control",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "description": "Roon Control - A HOOBS plugin for controlling Roon",
   "main": "index.js",
   "engines": {
-    "node": "14.16.0",
-    "homebridge": "1.0.4"
+    "node": ">=14.16.0",
+    "homebridge": ">=1.6.1"
   },
   "keywords": [
     "hoobs-plugin",
@@ -19,23 +19,19 @@
   "author": "mrtfox",
   "license": "ISC",
   "dependencies": {
-    "homebridge": "1.0.4",
-    "node-roon-api": "git+https://github.com/roonlabs/node-roon-api.git",
-    "node-roon-api-status": "git+https://github.com/roonlabs/node-roon-api-status.git",
-    "node-roon-api-transport": "git+https://github.com/roonlabs/node-roon-api-transport.git",
-    "node-roon-api-browse": "git+https://github.com/roonlabs/node-roon-api-browse.git",
-    "node-roon-api-settings": "git+https://github.com/roonlabs/node-roon-api-settings.git"
+    "homebridge": "1.6.1",
+    "node-roon-api": "git+https://github.com/roonlabs/node-roon-api.git#master",
+    "node-roon-api-status": "git+https://github.com/roonlabs/node-roon-api-status.git#master",
+    "node-roon-api-transport": "git+https://github.com/roonlabs/node-roon-api-transport.git#master",
+    "node-roon-api-browse": "git+https://github.com/roonlabs/node-roon-api-browse.git#master",
+    "node-roon-api-settings": "git+https://github.com/roonlabs/node-roon-api-settings.git#master"
   },
   "peerDependencies": {
-    "homebridge": "1.0.4"
+    "homebridge": ">=1.6.1"
   },
   "peerDependenciesMeta": {
     "homebridge": {
       "optional": false
     }
-  },
-  "overrides": {
-    "uuid": "3.4.0",
-    "q": "1.5.1"
   }
 } 
