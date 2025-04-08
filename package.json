@@ -1,6 +1,6 @@
 {
   "name": "homebridge-roon-control",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Roon Control - A HOOBS plugin for controlling Roon",
   "main": "index.js",
   "engines": {
