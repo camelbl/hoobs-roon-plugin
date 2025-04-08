@@ -1,7 +1,7 @@
 {
-  "name": "hoobs-roon",
+  "name": "roon-control",
   "version": "1.0.0",
-  "description": "HOOBS plugin for Roon control",
+  "description": "Roon Control - A HOOBS plugin for controlling Roon",
   "main": "index.js",
   "engines": {
     "node": ">=10.0.0",
@@ -10,18 +10,28 @@
   "keywords": [
     "hoobs-plugin",
     "roon",
-    "music"
+    "music",
+    "roon-control"
   ],
-  "author": "MrTFox",
+  "author": {
+    "name": "mrtfox",
+    "email": "online@fuchs.vip"
+  },
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/hoobs-roon-plugin.git"
+    "url": "git+https://github.com/camelbl/hoobs-roon-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/hoobs-roon-plugin/issues"
+    "url": "https://github.com/camelbl/hoobs-roon-plugin/issues"
   },
-  "homepage": "https://github.com/yourusername/hoobs-roon-plugin#readme",
+  "homepage": "https://github.com/camelbl/hoobs-roon-plugin#readme",
+  "hoobs": {
+    "type": "plugin",
+    "category": "Music",
+    "name": "Roon Control",
+    "description": "Control Roon through HOOBS and HomeKit"
+  },
   "dependencies": {
     "@hoobs/sdk": "^3.3.0",
     "node-roon-api": "github:roonlabs/node-roon-api",
