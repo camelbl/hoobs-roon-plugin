@@ -1,0 +1,33 @@
+{
+  "name": "hoobs-roon",
+  "version": "1.0.0",
+  "description": "HOOBS plugin for Roon control",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10.0.0",
+    "hoobs": ">=3.3.0"
+  },
+  "keywords": [
+    "hoobs-plugin",
+    "roon",
+    "music"
+  ],
+  "author": "MrTFox",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/hoobs-roon-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/hoobs-roon-plugin/issues"
+  },
+  "homepage": "https://github.com/yourusername/hoobs-roon-plugin#readme",
+  "dependencies": {
+    "@hoobs/sdk": "^3.3.0",
+    "node-roon-api": "github:roonlabs/node-roon-api",
+    "node-roon-api-status": "github:roonlabs/node-roon-api-status",
+    "node-roon-api-transport": "github:roonlabs/node-roon-api-transport",
+    "node-roon-api-browse": "github:roonlabs/node-roon-api-browse",
+    "node-roon-api-settings": "github:roonlabs/node-roon-api-settings"
+  }
+} 

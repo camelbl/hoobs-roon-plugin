@@ -1,0 +1,27 @@
+{
+  "pluginAlias": "Roon",
+  "pluginType": "accessory",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string",
+        "required": true,
+        "default": "Roon"
+      },
+      "displayName": {
+        "title": "Display Name",
+        "type": "string",
+        "required": true,
+        "default": "Roon"
+      },
+      "coreName": {
+        "title": "Roon Core Name",
+        "type": "string",
+        "required": false,
+        "description": "Optional: Specify a specific Roon Core to connect to"
+      }
+    }
+  }
+} 
