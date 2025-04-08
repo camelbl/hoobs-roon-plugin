@@ -3,6 +3,7 @@ const RoonApiStatus = require("node-roon-api-status");
 const RoonApiTransport = require("node-roon-api-transport");
 const RoonApiBrowse = require("node-roon-api-browse");
 const RoonApiSettings = require("node-roon-api-settings");
+const { Service, Characteristic } = require('homebridge');
 
 module.exports = (api) => {
   api.registerAccessory("Roon", RoonAccessory);
@@ -14,8 +15,8 @@ class RoonAccessory {
     this.config = config;
     this.api = api;
 
-    this.Service = this.api.hap.Service;
-    this.Characteristic = this.api.hap.Characteristic;
+    this.Service = Service;
+    this.Characteristic = Characteristic;
 
     // Initialize Roon API
     this.roon = new RoonApi({
