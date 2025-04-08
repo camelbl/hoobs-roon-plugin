@@ -1,10 +1,10 @@
 {
   "name": "homebridge-roon-control",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Roon Control - A HOOBS plugin for controlling Roon",
   "main": "index.js",
   "engines": {
-    "node": ">=10.0.0",
+    "node": ">=14.16.0",
     "homebridge": ">=1.6.1"
   },
   "keywords": [
@@ -31,10 +31,10 @@
   "homepage": "https://github.com/camelbl/hoobs-roon-plugin#readme",
   "dependencies": {
     "homebridge": "^1.6.1",
-    "node-roon-api": "^1.0.0",
-    "node-roon-api-status": "^1.0.0",
-    "node-roon-api-transport": "^1.0.0",
-    "node-roon-api-browse": "^1.0.0",
-    "node-roon-api-settings": "^1.0.0"
+    "node-roon-api": "github:roonlabs/node-roon-api",
+    "node-roon-api-status": "github:roonlabs/node-roon-api-status",
+    "node-roon-api-transport": "github:roonlabs/node-roon-api-transport",
+    "node-roon-api-browse": "github:roonlabs/node-roon-api-browse",
+    "node-roon-api-settings": "github:roonlabs/node-roon-api-settings"
   }
 } 
