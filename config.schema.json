@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "RoonControl",
+  "pluginAlias": "Roon",
   "pluginType": "accessory",
   "singular": true,
   "schema": {
@@ -24,5 +24,22 @@
         "description": "Optional: Specify a specific Roon Core to connect to"
       }
     }
-  }
+  },
+  "form": [
+    {
+      "type": "string",
+      "key": "name",
+      "title": "Name"
+    },
+    {
+      "type": "string",
+      "key": "displayName",
+      "title": "Display Name"
+    },
+    {
+      "type": "string",
+      "key": "coreName",
+      "title": "Roon Core Name"
+    }
+  ]
 } 
