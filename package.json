@@ -1,6 +1,6 @@
 {
-  "name": "hoobs-plugin-roon",
-  "version": "1.0.1",
+  "name": "homebridge-roon-control",
+  "version": "1.0.2",
   "description": "Roon Control - A HOOBS plugin for controlling Roon",
   "main": "index.js",
   "engines": {
@@ -13,7 +13,8 @@
     "music",
     "roon-control",
     "homekit",
-    "audio"
+    "audio",
+    "homebridge-plugin"
   ],
   "author": {
     "name": "mrtfox",
