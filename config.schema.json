@@ -1,6 +1,7 @@
 {
-  "pluginAlias": "Roon",
+  "pluginAlias": "RoonControl",
   "pluginType": "accessory",
+  "singular": true,
   "schema": {
     "type": "object",
     "properties": {
@@ -8,13 +9,13 @@
         "title": "Name",
         "type": "string",
         "required": true,
-        "default": "Roon"
+        "default": "Roon Control"
       },
       "displayName": {
         "title": "Display Name",
         "type": "string",
         "required": true,
-        "default": "Roon"
+        "default": "Roon Control"
       },
       "coreName": {
         "title": "Roon Core Name",

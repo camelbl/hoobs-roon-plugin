@@ -1,5 +1,5 @@
 {
-  "name": "roon-control",
+  "name": "@mrtfox/hoobs-roon-control",
   "version": "1.0.0",
   "description": "Roon Control - A HOOBS plugin for controlling Roon",
   "main": "index.js",
@@ -30,7 +30,9 @@
     "type": "plugin",
     "category": "Music",
     "name": "Roon Control",
-    "description": "Control Roon through HOOBS and HomeKit"
+    "description": "Control Roon through HOOBS and HomeKit",
+    "displayName": "Roon Control",
+    "icon": "https://raw.githubusercontent.com/camelbl/hoobs-roon-plugin/main/icon.svg"
   },
   "dependencies": {
     "@hoobs/sdk": "^3.3.0",
