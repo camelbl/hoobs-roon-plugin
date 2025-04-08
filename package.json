@@ -1,5 +1,5 @@
 {
-  "name": "@mrtfox/hoobs-roon-control",
+  "name": "hoobs-roon-control",
   "version": "1.0.0",
   "description": "Roon Control - A HOOBS plugin for controlling Roon",
   "main": "index.js",
