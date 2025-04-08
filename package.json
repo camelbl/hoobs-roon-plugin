@@ -1,11 +1,11 @@
 {
   "name": "homebridge-roon-control",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "Roon Control - A HOOBS plugin for controlling Roon",
   "main": "index.js",
   "engines": {
-    "node": ">=14.16.0",
-    "homebridge": ">=1.6.1"
+    "node": "14.16.0",
+    "homebridge": "1.6.1"
   },
   "keywords": [
     "hoobs-plugin",
@@ -20,10 +20,10 @@
   "license": "ISC",
   "dependencies": {
     "homebridge": "1.6.1",
-    "node-roon-api": "git+https://github.com/roonlabs/node-roon-api.git",
-    "node-roon-api-status": "git+https://github.com/roonlabs/node-roon-api-status.git",
-    "node-roon-api-transport": "git+https://github.com/roonlabs/node-roon-api-transport.git",
-    "node-roon-api-browse": "git+https://github.com/roonlabs/node-roon-api-browse.git",
-    "node-roon-api-settings": "git+https://github.com/roonlabs/node-roon-api-settings.git"
+    "node-roon-api": "git+https://github.com/roonlabs/node-roon-api.git#v1.0.0",
+    "node-roon-api-status": "git+https://github.com/roonlabs/node-roon-api-status.git#v1.0.0",
+    "node-roon-api-transport": "git+https://github.com/roonlabs/node-roon-api-transport.git#v1.0.0",
+    "node-roon-api-browse": "git+https://github.com/roonlabs/node-roon-api-browse.git#v1.0.0",
+    "node-roon-api-settings": "git+https://github.com/roonlabs/node-roon-api-settings.git#v1.0.0"
   }
 } 
