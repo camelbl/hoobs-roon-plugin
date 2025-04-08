@@ -1,6 +1,6 @@
 {
   "name": "homebridge-roon-control",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "description": "Roon Control - A HOOBS plugin for controlling Roon",
   "main": "index.js",
   "engines": {
@@ -18,8 +18,11 @@
   ],
   "author": "mrtfox",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrtfox/hoobs-roon-plugin.git"
+  },
   "dependencies": {
-    "homebridge": "1.6.1",
     "node-roon-api": "git+https://github.com/roonlabs/node-roon-api.git#51258392f8bfae3fe218740dda5bc049a822872e",
     "node-roon-api-status": "git+https://github.com/roonlabs/node-roon-api-status.git#51258392f8bfae3fe218740dda5bc049a822872e",
     "node-roon-api-transport": "git+https://github.com/roonlabs/node-roon-api-transport.git#51258392f8bfae3fe218740dda5bc049a822872e",
