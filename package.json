@@ -1,6 +1,6 @@
 {
   "name": "homebridge-roon-control",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Roon Control - A HOOBS plugin for controlling Roon",
   "main": "index.js",
   "engines": {
@@ -41,7 +41,6 @@
     "plugin": true
   },
   "dependencies": {
-    "@hoobs/sdk": "^3.3.0",
     "node-roon-api": "github:roonlabs/node-roon-api",
     "node-roon-api-status": "github:roonlabs/node-roon-api-status",
     "node-roon-api-transport": "github:roonlabs/node-roon-api-transport",
