@@ -1,6 +1,6 @@
 {
   "name": "homebridge-roon-control",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "Roon Control - A HOOBS plugin for controlling Roon",
   "main": "index.js",
   "engines": {
@@ -16,19 +16,8 @@
     "audio",
     "homebridge-plugin"
   ],
-  "author": {
-    "name": "mrtfox",
-    "email": "online@fuchs.vip"
-  },
+  "author": "mrtfox",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/camelbl/hoobs-roon-plugin.git"
-  },
-  "bugs": {
-    "url": "https://github.com/camelbl/hoobs-roon-plugin/issues"
-  },
-  "homepage": "https://github.com/camelbl/hoobs-roon-plugin#readme",
   "dependencies": {
     "homebridge": "1.6.1",
     "node-roon-api": "git+https://github.com/roonlabs/node-roon-api.git",
