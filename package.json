@@ -1,6 +1,6 @@
 {
   "name": "homebridge-roon-control",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Roon Control - A HOOBS plugin for controlling Roon",
   "main": "index.js",
   "engines": {
@@ -37,7 +37,8 @@
     "displayName": "Roon Control",
     "icon": "https://raw.githubusercontent.com/camelbl/hoobs-roon-plugin/main/icon.svg",
     "platform": "homebridge",
-    "maintainer": "mrtfox"
+    "maintainer": "mrtfox",
+    "plugin": true
   },
   "dependencies": {
     "@hoobs/sdk": "^3.3.0",
