@@ -1,7 +1,7 @@
 {
   "name": "homebridge-roon-control",
   "displayName": "Roon Control",
-  "version": "1.0.46",
+  "version": "1.0.47",
   "description": "Simple Roon control plugin for Homebridge/HOOBS",
   "main": "index.js",
   "author": "mrtfox",
@@ -30,10 +30,5 @@
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/mrtfox"
-  },
-  "scripts": {
-    "lint": "eslint .",
-    "build": "npm run lint",
-    "prepublishOnly": "npm run build"
   }
 } 
