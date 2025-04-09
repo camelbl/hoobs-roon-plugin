@@ -1,6 +1,6 @@
 {
   "pluginAlias": "RoonControl",
-  "pluginType": "accessory",
+  "pluginType": "platform",
   "singular": true,
   "schema": {
     "type": "object",
@@ -13,5 +13,13 @@
         "description": "Name of the Roon control switch"
       }
     }
-  }
+  },
+  "form": [
+    {
+      "type": "string",
+      "key": "name",
+      "title": "Name",
+      "placeholder": "Roon Control"
+    }
+  ]
 } 
