@@ -1,34 +1,27 @@
 {
+  "displayName": "Homebridge Roon Control",
   "name": "homebridge-roon-control",
-  "displayName": "Roon Control",
-  "version": "1.0.47",
-  "description": "Simple Roon control plugin for Homebridge/HOOBS",
-  "main": "index.js",
-  "author": "mrtfox",
+  "version": "0.1.0",
+  "description": "Roon Control integration with Homekit using Homebridge",
   "license": "ISC",
-  "keywords": [
-    "homebridge-plugin",
-    "hoobs-plugin",
-    "roon"
-  ],
-  "engines": {
-    "node": ">=14.0.0",
-    "homebridge": ">=1.3.0"
-  },
-  "dependencies": {
-    "node-roon-api": "github:RoonLabs/node-roon-api",
-    "node-roon-api-transport": "github:RoonLabs/node-roon-api-transport"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrtfox/hoobs-roon-plugin.git"
+    "url": "git://github.com/mrtfox/hoobs-roon-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/mrtfox/hoobs-roon-plugin/issues"
+    "url": "git://github.com/mrtfox/hoobs-roon-plugin/issues"
   },
-  "homepage": "https://github.com/mrtfox/hoobs-roon-plugin#readme",
-  "funding": {
-    "type": "github",
-    "url": "https://github.com/sponsors/mrtfox"
+  "engines": {
+    "node": ">=10.17.0",
+    "homebridge": ">0.4.53"
+  },
+  "main": "index.js",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "dependencies": {
+    "node-roon-api": "github:RoonLabs/node-roon-api",
+    "node-roon-api-status": "github:RoonLabs/node-roon-api-status",
+    "node-roon-api-transport": "github:RoonLabs/node-roon-api-transport"
   }
 } 
