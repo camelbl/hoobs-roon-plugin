@@ -1,6 +1,6 @@
 {
   "name": "homebridge-roon-control",
-  "version": "1.0.42",
+  "version": "1.0.43",
   "description": "HOOBS/Homebridge plugin for controlling Roon outputs",
   "main": "index.js",
   "author": "mrtfox",
