@@ -1,6 +1,6 @@
 {
   "pluginAlias": "RoonControl",
-  "pluginType": "platform",
+  "pluginType": "accessory",
   "singular": true,
   "schema": {
     "type": "object",
@@ -9,49 +9,9 @@
         "title": "Name",
         "type": "string",
         "required": true,
-        "default": "Roon Control"
-      },
-      "displayName": {
-        "title": "Display Name",
-        "type": "string",
-        "required": true,
-        "default": "Roon Control"
-      },
-      "coreName": {
-        "title": "Roon Core Name",
-        "type": "string",
-        "required": false,
-        "description": "Optional: Specify a specific Roon Core to connect to"
-      },
-      "suffix": {
-        "title": "Suffix",
-        "type": "string",
-        "required": false,
-        "default": "Speaker",
-        "description": "Allows you to add a word after your output name that will show up in Homekit."
+        "default": "Roon Control",
+        "description": "Name of the Roon control switch"
       }
     }
-  },
-  "form": [
-    {
-      "type": "string",
-      "key": "name",
-      "title": "Name"
-    },
-    {
-      "type": "string",
-      "key": "displayName",
-      "title": "Display Name"
-    },
-    {
-      "type": "string",
-      "key": "coreName",
-      "title": "Roon Core Name"
-    },
-    {
-      "type": "string",
-      "key": "suffix",
-      "title": "Suffix"
-    }
-  ]
+  }
 } 
